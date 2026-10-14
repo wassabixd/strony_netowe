@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <title>Mój Blog</title>
-    <!-- Tutaj importujemy style -->
-     <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karta Gracza</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div id="naglowek">
-        <h1>Mój Technoblog</h1>
-        <p>Pasje, technologia i codzienne myśli</p>
-    </div>
-
-    <div id="baner">
-        <h2>Witaj na moim blogu!</h2>
-        <p>Tutaj piszę o wszystkim co mnie fascynuje.</p>
-    </div>
-
-    <div id="tresc">
-        <div class="wpis">
-            <p class="autor">👤 Marek Kowalski</p>
-            <p class="data">🕐 3 kwietnia 2026 · 🌍 Publiczny</p>
-            <p class="tekst">Właśnie wróciłem z konferencji o AI. Niesamowite rzeczy się dzieją! 🤖</p>
-            <div class="reakcje">👍 Lubię to  💬 Komentuj  ↪️ Udostępnij</div>
-        </div>
-        <div class="wpis">
-            <p class="autor">👤 Anna Nowak</p>
-            <p class="data">🕐 2 kwietnia 2026 · 🔒 Tylko znajomi</p>
-            <p class="tekst">Dziś nauczyłam się CSS. Moja strona wygląda teraz jak prawdziwy blog! 🎨</p>
-            <div class="reakcje">👍 Lubię to  💬 Komentuj  ↪️ Udostępnij</div>
-        </div>
-        <div class="wpis">
-            <p class="autor">👤 Piotrek Dev</p>
-            <p class="data">🕐 1 kwietnia 2026 · 🌍 Publiczny</p>
-            <p class="tekst">Kto jeszcze debuguje CSS o północy? 😅 Jeden piksel mnie pokonał...</p>
-            <div class="reakcje">👍 Lubię to  💬 Komentuj  ↪️ Udostępnij</div>
-        </div>
-    </div>
-
+  <main class="player-card">
+    <!-- TODO: dodaj sekcje karty gracza -->
+     <header class="card-header">
+      <h1>🎮Karta gracza</h1>
+      <p>Nick: <span class="highlight">szczochbezmiotł231</span></p>
+     </header>
+     <section class="card-section bio">
+      <h2>📄Bio</h2>
+      <p>Poziom: <strong>69</strong></p>
+      <p>Klasa: <strong>geniusz</strong></p>
+      <p>Gildia: <strong>4 Reaktor</strong></p>
+     </section>
+     <section class="card-selection equipment">
+      <h2>🧰Ekwipunek</h2>
+      <ul>
+        <li>mózg einsteina</li>
+        <li>randomowy pierścień</li>
+        <li>pies(69 lat)</li>
+      </ul>
+     </section>
+     <section class="card-selection achievments">
+        <h2>⭐Osiągniecia</h2>
+        <ul>
+          <li>ewolucja</li>
+          <li>2500 godzin na scrollowaniu</li>
+          <li>teamkill x20</li>
+        </ul>
+     </section>
+     <footer class="card-footer">
+      <p>Ostatnia aktywność: <time datetime="2069-06-13">13 czerwca 2069</time></p>
+     </footer>
+  </main>
 </body>
 </html>
